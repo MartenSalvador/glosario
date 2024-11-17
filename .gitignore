@@ -1,0 +1,18 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar archivos de configuración y entornos sensibles
+.env
+
+# Ignorar logs
+npm-debug.log
+yarn-error.log
+*.log
+
+# Ignorar archivos de sistema (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones del editor (opcional)
+.vscode/
+.idea/
