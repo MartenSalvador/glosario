@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Press+Start+2P&display=swap');
+
+:root {
+    /*Fuentes*/
+    --header-font: 'Press Start 2P', sans-serif;
+    --footer-font: 'IBM Plex Mono', sans-serif;
+
+    
+    /*Colores*/
+    --header-color: #5300C8;
+    --fuente-color: #E5E5E5;
+    --negro-color: #000;
+    --blanco_color:#FFF;
+    --formulario--color: #03318C;
+
+}
+
+
+/*HEADER Y FOOTER*/
+.titulo__header{
+    font-family: var(--header-font);
+}
+
+
+header{
+    background-color: var(--header-color);
+    color: var(--fuente-color);
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items:  center;
+
+
+}
+.fa-book{
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+}
+
+.navbar__search input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.navbar__search button {
+    color:var(--blanco_color);
+    font-family: var(--footer-font);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: var(--formulario--color);
+    border-radius: 10px;
+    border:none;
+}
+
+.navbar__search button:hover {
+    background-color: var(--header-color); 
+    transform: scale(0.99999999); 
+    border:solid 0.5px var(--formulario--color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input__agregar_busqueda{
+    border-radius: 30px;
+    border: 3px solid var(--formulario--color);
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+
+}
+
+.input__agregar_busqueda:active{
+    box-shadow: 0 0 8px rgba(94, 155, 255, 0.6);
+    border-color: #5e9bff;
+    background-color: #f9f9f9;
+}
+
+.input__agregar_busqueda:focus {
+    border-color: #5e9bff; 
+    box-shadow: 0 0 8px rgba(94, 155, 255, 0.6); 
+    outline: none; 
+}
+
+.input__agregar_busqueda:hover {
+    border-color: #bbb; 
+    box-shadow: 0 0 5px var(--negro-color);
+}
+
+
+.input__agregar_busqueda::placeholder{
+    font-family: var(--footer-font);
+    color: var(--header-color);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+.div__footer{
+    color: var(--fuente-color);
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items:  center;
+
+}
+
+footer{
+    color: var(--fuente-color);
+    background-color: var(--header-color);
+    text-align: center;
+    padding: 20px 0;
+    font-family: var(--footer-font);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.footer__opaco{
+    opacity: 50%;
+}
+
+/*Main*/
+
+.seccion_palabras{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    padding: 30px;
+}
+
+/*palabras*/
+.palabras__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 0.2rem; 
+}
+.contenedor__titulo{
+    color: var(--negro-color);
+    font-family: var(--header-font);
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+.palabras__card{
+    width: 120px; /* Reduce el ancho de las tarjetas */
+    height: 170px;
+    margin: 10px;
+    background-color: var(--header-color);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--negro-color);
+    color: var(--fuente-color);
+    font-family: var(--footer-font);
+    padding: 0.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.palabras__card:hover {
+    transform: scale(0.97);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: var(--formulario--color);
+}
+
+.palabra__español{
+    font-size: 10px;
+}
+.palabra__aleman{
+    font-size: 12px;
+}
+.palabras__card img {
+    width: 100%; 
+    height: 80px; 
+    object-fit: cover;
+    border-radius: 6px; 
+  }
+  
+
+.card__palabras__info{
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    
+}
+.boton__borrar {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.boton__borrar i {
+    font-size: 10px; 
+    color: var(--fuente-color); 
+}
+button i:hover {
+    color: var(--header-color); 
+    transform: scale(1.2);
+}
+
+
+/*seccion agregar palabra*/
+.contenedor__agregar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 517px;
+    width: 472px;
+    
+}
+
+.form__agregar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.input__agregar{
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    border: 3px solid var(--formulario--color);
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+
+}
+
+.input__agregar:active{
+    box-shadow: 0 0 8px rgba(94, 155, 255, 0.6);
+    border-color: #5e9bff;
+    background-color: #f9f9f9;
+}
+
+.input__agregar:focus {
+    border-color: #5e9bff; 
+    box-shadow: 0 0 8px rgba(94, 155, 255, 0.6); 
+    outline: none; 
+}
+
+.input__agregar:hover {
+    border-color: #bbb; 
+    box-shadow: 0 0 8px rgba(94, 155, 255, 0.6);
+}
+
+
+.input__agregar::placeholder{
+    font-family: var(--footer-font);
+    color: var(--formulario--color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+.btn__enviar{
+    color:var(--blanco_color);
+    font-family: var(--footer-font);
+    font-size: 20px;
+    font-weight: 400;
+    background-color: var(--formulario--color);
+    border-radius: 10px;
+    height: 55px;
+    width: 188px;
+    border:none;
+}
+.btn__enviar:hover{
+    background-color: var(--header-color); 
+    transform: scale(1.015); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.btn__enviar:active{
+    opacity: 50%;
+}
+
+.btn__limpiar{
+    color:var(--formulario--color) ;
+    font-family: var(--footer-font);
+    font-size: 20px;
+    font-weight: 500;
+    background-color:var(--blanco_color);
+    border-radius: 10px;
+    height: 55px;
+    width: 188px;
+    border: 3px solid var(--formulario--color);
+}
+.btn__limpiar:hover{
+    transform: scale(1.015); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.btn__limpiar:active{
+    opacity: 50%;
+}
+.mensaje-error {
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: var(--header-font);
+}
+
+#sin-resultados {
+    display: none; /* Por defecto, oculto */
+    text-align: center;
+    color: var(--header-color);
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: var(--header-font);
+}
+
+@media(max-width:1024px) {
+    .seccion_palabras{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .palabras__grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contenedor__agregar{
+        width: 88%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    #libro{
+        display: none;
+    }
+}
+
+@media(max-width:600px){
+    .contenedor__palabras, .contenedor__agregar{
+        width: 90%;
+        padding: 20px;
+        
+    }
+    .palabras__grid{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .input__agregar{
+        width: 100%;
+    }
+    .form-buttons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin-top: 30px;
+    }
+    
+}
+
+@media(min-width:1024px) {
+    .contenedor__palabras {
+        max-height: 600px; 
+        overflow-y: auto; 
+    }
+
+    .palabras__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Glosario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+                <i id="libro" class="fas fa-book"></i>
+                <p class="titulo__header">Glosario / Glossar</p>
+            
+            <div class="navbar__search">
+                <input class="input__agregar_busqueda"
+                    type="text" 
+                    id="buscar-palabra" 
+                    placeholder="Buscar palabra..." 
+                    aria-label="Buscar palabra">
+                <button id="btn-buscar">Buscar</button>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+       
+        <section class="seccion_palabras">
+            <section class="contenedor__palabras">
+                <h2 class="contenedor__titulo">Mis palabras<br>Meine Wörter</h2>
+                <p id="sin-resultados" style="display: none; text-align: center; color: gray;">No se encontraron resultados.</p>
+                <div id="palabras" class="palabras__grid">
+                    
+                </div>
+            </section>
+        
+            <section class="contenedor__agregar">
+                <h2 class="contenedor__titulo">AGREGAR<br>NUEVA PALABRA:</h2>
+                <form class="form__agregar" id="formulario">
+                    
+                    <input class="input__agregar" placeholder="palabra español..." type="text" id="formulario_palabra_esp" name="esp">
+         
+                    
+                    <input class="input__agregar" placeholder="palabra aleman..." type="text" id="formulario_palabra_alem" name="alem">
+        
+                    
+                    <input class="input__agregar" placeholder="imagen..." type="url" id="formulario_imagen" name="imagen">
+                    <div id="mensaje-error" class="mensaje-error"></div>
+    
+                    <div class="form-buttons">
+                        
+                        <button id="formulario_btn_enviar" class="btn__enviar" type="submit">Enviar</button>
+                        <button id="formulario_btn_limpiar" class="btn__limpiar" type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="div__footer"><i id="libro" class="fas fa-book"></i>
+            <p class="titulo__header">Glosario / Glossar</p></div>
+        <p>DESARROLLADO POR MARTIN SALVADOR</p>
+        <p class="footer__opaco">ALURA LATAM 2024</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

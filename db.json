@@ -1,0 +1,124 @@
+{
+  "palabras": [
+    {
+      "id": "1",
+      "español": "el señor",
+      "aleman": "der Herr",
+      "imagen": "https://st4.depositphotos.com/17418852/21656/v/450/depositphotos_216562546-stock-illustration-young-man-pointing-away-showing.jpg"
+    },
+    {
+      "id": "2",
+      "español": "la señora",
+      "aleman": "die Frau",
+      "imagen": "https://i.pinimg.com/236x/e8/92/d1/e892d1ee9645881f6292d75cc51904db.jpg"
+    },
+    {
+      "id": "5",
+      "español": "la naranja",
+      "aleman": "die Orange",
+      "imagen": "https://historiasdelahistoria.com/wp-content/uploads/2015/11/naranja.jpg"
+    },
+    {
+      "id": "6",
+      "español": "las verduras",
+      "aleman": "das Gemüse",
+      "imagen": "https://www.sonidosderosario.com.ar/wp-content/uploads/2020/03/psr-verduleria-quico-av-o-lagos-y-fontezuela.jpg"
+    },
+    {
+      "id": "7",
+      "español": "la botella",
+      "aleman": "die Flasche",
+      "imagen": "https://www.euroglas.de/wp-content/uploads/2021/09/974_Milchflasche_Fraicheur_1000ml_weiss-scaled.jpg"
+    },
+    {
+      "id": "8",
+      "español": "la mesa",
+      "aleman": "der Tisch",
+      "imagen": "https://meblero.com/wp-content/uploads/2023/07/Medidas-de-mesa-de-comedor-como-elegir.jpg"
+    },
+    {
+      "id": "9",
+      "español": "la silla",
+      "aleman": "der Sthul",
+      "imagen": "https://www.ofisillas.es/blog/wp-content/uploads/2015/10/Silla-de-escritorio-de-madera.jpg"
+    },
+    {
+      "id": "10",
+      "español": "la heladera",
+      "aleman": "der Kühlschrank",
+      "imagen": "https://blog.drean.com.ar/wp-content/uploads/2022/12/2-HeladeraNoFrost.webp"
+    },
+    {
+      "id": "11",
+      "español": "el pantano",
+      "aleman": "der Sumpf",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pantanal%2C_south-central_South_America_5170.jpg"
+    },
+    {
+      "id": "12",
+      "español": "el vino ",
+      "aleman": "der Wein",
+      "imagen": "https://www.bodegasmurilloviteri.com/wp-content/uploads/2019/06/vino-autor-libertad-expresion.jpg"
+    },
+    {
+      "id": "13",
+      "español": "el agua",
+      "aleman": "das Wasser",
+      "imagen": "https://bcdn.products.pcc.eu/wp-content/uploads/2022/09/FOT1-pH-wody.jpg"
+    },
+    {
+      "id": "14",
+      "español": "el armario",
+      "aleman": "der Schrank",
+      "imagen": "https://image.made-in-china.com/202f0j00VjoldicRLKqr/Sliding-Door-Walk-in-Closet-Furniture-Bedroom-Modern-Just-Wood-Wardrobe.webp"
+    },
+    {
+      "id": "15",
+      "español": "la puerta",
+      "aleman": "die Tür",
+      "imagen": "https://image.made-in-china.com/202f0j00sCaYderGbFbT/New-Design-Wood-Skin-Door-Melamine-Door.webp"
+    },
+    {
+      "id": "16",
+      "español": "la banana",
+      "aleman": "die Banane",
+      "imagen": "https://static.wixstatic.com/media/53e8bb_a1e88e551162485eb4ff962437300872~mv2.jpeg/v1/crop/x_0,y_105,w_1024,h_919/fill/w_560,h_560,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Banana.jpeg"
+    },
+    {
+      "id": "17",
+      "español": "el lavarropas",
+      "aleman": "die Waschmaschine",
+      "imagen": "https://static.hendel.com/media/catalog/product/cache/0c3e9ac8430b5a3e77d1544ae1698a10/3/4/34423.jpg"
+    },
+    {
+      "id": "18",
+      "español": "el libro",
+      "aleman": "das Buch",
+      "imagen": "https://static.vecteezy.com/system/resources/previews/007/517/574/non_2x/red-closed-book-school-collection-illustration-cartoon-style-on-a-white-background-vector.jpg"
+    },
+    {
+      "id": "19",
+      "español": "la lámpara",
+      "aleman": "die Lampe",
+      "imagen": "https://m.media-amazon.com/images/I/7172VQx5jOL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "21",
+      "español": "el chocolate",
+      "aleman": "die Schokolade",
+      "imagen": "https://media.istockphoto.com/id/121282958/de/foto/schokolade.jpg?s=612x612&w=0&k=20&c=_Bi7irr-ZdUwfd3OvMv9wB0MiFj_76BT4mc8mLgBN3g="
+    },
+    {
+      "id": "22",
+      "español": "la papa",
+      "aleman": "die Kartoffel",
+      "imagen": "https://www.herbazest.com/imgs/0/a/c/451775/papa.jpg"
+    },
+    {
+      "id": "23",
+      "español": "el televisor",
+      "aleman": "der Fernsehen",
+      "imagen": "https://www.radiouniversidad.com.ar/wp-content/uploads/2021/03/mirgor01-1024x576.jpg"
+    }
+  ]
+}
