@@ -1,4 +1,5 @@
-//npx json-server --watch db.json --port 3001 para iniciar servidor cabeza
+//npx json-server --watch db.json --port 3001 para iniciar servidor 
+//con mokapi usar https://673ad896339a4ce445195433.mockapi.io/glosario/api/1/palabras
 
 
 
@@ -29,7 +30,7 @@ function agregarPalabraAlHTML(palabras){
 
 
 //Cargamos las palabras
-fetch("http://localhost:3001/palabras")
+fetch("https://673ad896339a4ce445195433.mockapi.io/glosario/api/1/palabras")
 .then(response=>{
     if(!response.ok){
         throw new Error('Error al cargar las palabras')
@@ -81,7 +82,7 @@ botonAgregar.addEventListener('click', (event)=>{
     };
     lastId++;
 
-    fetch('http://localhost:3001/palabras',{
+    fetch('https://673ad896339a4ce445195433.mockapi.io/glosario/api/1/palabras',{
         method:'POST',
         headers:{
             'Content-Type': 'application/json',
@@ -110,7 +111,7 @@ botonAgregar.addEventListener('click', (event)=>{
 // Función para eliminar una palabra
 function eliminarPalabra(id) {
     console.log("ID del palabra a eliminar:", id);
-    fetch(`http://localhost:3001/palabras/${id}`, {
+    fetch(`https://673ad896339a4ce445195433.mockapi.io/glosario/api/1/palabras/${id}`, {
         method: 'DELETE'
     })
     .then(response => {
