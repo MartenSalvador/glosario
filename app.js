@@ -6,7 +6,7 @@
 const contenedorPalabras = document.getElementById('palabras');
 const formulario = document.getElementById('formulario');
 const botonAgregar = document.getElementById('formulario_btn_enviar');
-
+const espanol="";
 let lastId = 0;
 
 //funcion para agregar palabra al html
