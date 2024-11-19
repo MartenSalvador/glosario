@@ -6,7 +6,6 @@
 const contenedorPalabras = document.getElementById('palabras');
 const formulario = document.getElementById('formulario');
 const botonAgregar = document.getElementById('formulario_btn_enviar');
-const espanol="";
 let lastId = 0;
 
 //funcion para agregar palabra al html
@@ -72,6 +71,7 @@ botonAgregar.addEventListener('click', (event)=>{
     
     
     
+const espanol="";
 
     //Crear nueva palabra sin el id ya que el JSON server lo asignara automatico
     const nuevaPalabra ={
