@@ -71,7 +71,6 @@ botonAgregar.addEventListener('click', (event)=>{
     
     
     
-const espanol="";
 
     //Crear nueva palabra sin el id ya que el JSON server lo asignara automatico
     const nuevaPalabra ={
